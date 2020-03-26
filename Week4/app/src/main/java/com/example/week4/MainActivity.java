@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
                 this.thing_name.setText( thing.getName() );
                 this.thing_date.setText(thing.getDate());
                this.process.setProgress(thing.getRate());
-                this.submit.setTag(position);
+
             }
         }
 
