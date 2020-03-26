@@ -47,9 +47,8 @@
         android:layout_marginTop="28dp"
         android:paddingLeft="15dp"
         android:inputType="textPersonName"
-        android:text="请输入事件名"
-        app:layout_constraintStart_toEndOf="@+id/tv1"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="请输入事件名"/>
+
 
     <EditText
         android:id="@+id/text_date"
@@ -60,6 +59,7 @@
         android:inputType="datetime"
         android:paddingLeft="15dp"
         android:text="2020-03-02"
+
         app:layout_constraintStart_toEndOf="@+id/tv2"
         app:layout_constraintTop_toTopOf="@+id/tv2" />
     <EditText
