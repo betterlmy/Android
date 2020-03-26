@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
         
         @Override
         public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            //传入thing界面的内容
+            //传入thing界面的内容x
             //1.拿到thing见面的view
             //2.创建ViewHolder类型的view
             View view = View.inflate(parent.getContext(), R.layout.thing, null);
