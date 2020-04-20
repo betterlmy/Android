@@ -74,7 +74,6 @@ public class thing_content extends AppCompatActivity {
                     setResult( 1, intent );
                     finish();
                 }
-
         }
     };
     View.OnClickListener setDate=new View.OnClickListener() {
@@ -92,13 +91,5 @@ public class thing_content extends AppCompatActivity {
             datePicker.setVisibility(View.INVISIBLE);//设置完后不可见
         }
     };
-
-
-
-
-
-
-
-
 
 }
