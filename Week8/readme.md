@@ -9,7 +9,7 @@
 <br>
 ## 已知BUG
 #### $\color{red}{1.拍照为黑白色<br>2.超时红色删除掉后，红色会保留至下一个事件}$
-
+<font color='red'> text </font>
 ## 知识点
 ### 1.sqlite增删查改
 ##### a.databaseHelper<br>
